@@ -2,7 +2,9 @@
 
 This code is designed to run on (very simple and cheap to build) custom hardware and you should find a schematic for the circuit in the folder ATtiny-Tetris-Gold. Because the voltages of the switches are important, it's good to insulate the back of the board from fingers if you can.
    
-Designed originally for the Attiny85 and optimised for the *#AttinyArcade* platform. The source code is less than 8KB and the sketch should run happily with less than 300 bytes of RAM. You can find out more about this platform from http://webboggles.com, buy kits to make it (or get instructions / schematics). This sketch includes some code from the #AttinyArcade games on that site, including interrupt code. 
+Designed originally for the Attiny85 and optimised for the *#AttinyArcade* platform. The source code is less than 8KB and the sketch should run happily with less than 300 bytes of RAM. You can find out more about this platform from http://webboggles.com, buy kits to make it (or get instructions / schematics). This sketch includes some code from the #AttinyArcade games on that site, including interrupt code.
+
+<img src="https://raw.githubusercontent.com/jaromaz/ATtiny-Tetris-Gold/master/Tetris%20Multi-Button.gif">
 
 This game started life as a port but is now essentially a clone of TinyTetris by Anthony Russell, with some additional features. There remain elements of that original codebase, although the vast majority of what's here has been rewritten from scratch (including the screen, text and number rendering code and much of the game engine) in order to optimise for memory, improve responsiveness and allow new features on the limited hardware (added features include Highscore (saved to EEPROM), optional Ghost (or Shadow) Piece, Interrupt Handling and Hard-Mode functionality).  
    
