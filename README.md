@@ -2,7 +2,7 @@
 
 This code is designed to run on (very simple and cheap to build) custom hardware and you should find a schematic for the circuit in the folder ATtiny-Tetris-Gold.
 
-<a href="https://www.youtube.com/watch?v=lhz-gJY-Zcw"><img src="https://jm.iq.pl/wp-content/uploads/2019/06/tetris_n1-740x220@2x.jpg" width="740"></a>
+<a href="https://www.youtube.com/watch?v=lhz-gJY-Zcw"><img src="https://jm.iq.pl/tetris/tetrisvid.jpg" width="740"></a>
    
 Designed originally for the Attiny85 and optimised for the *#AttinyArcade* platform. The source code is less than 8KB and the sketch should run happily with less than 300 bytes of RAM. You can find out more about this platform from http://webboggles.com, buy kits to make it (or get instructions / schematics). This sketch includes some code from the #AttinyArcade games on that site, including interrupt code.
 
@@ -12,7 +12,9 @@ This game started life as a port but is now essentially a clone of TinyTetris by
    
 Anthony's source can be found here: https://github.com/AJRussell/Tiny-Tetris and is highly recommended if you'd like a version of Tetris to run on normal Arduino hardware. It has some lovely graphics by Tobozo (one image from which is now inclded the opening screen here!) and it's also possible that some code by Tobozo has made it into this version. Tobozo's repository can be found here; https://github.com/tobozo and is well worth a look. 
 There is an Instructables page relating to this project here: https://www.instructables.com/id/Tetris-Clone-With-OLED-SSD1306I2C-for-Arduino-Nano/ 
-        
+
+<a href="https://www.youtube.com/watch?v=lhz-gJY-Zcw"><img src="https://jm.iq.pl/wp-content/uploads/2019/06/tetris_n1-740x220@2x.jpg" width="740"></a>
+     
 This sketch is using the screen control and font functions written by Neven Boyanov for the http://tinusaur.wordpress.com/ project
 Source code and font files available at: https://bitbucket.org/tinusaur/ssd1306xled - hacked about by Andy Jackson to make them render side-on for this game. All the necessary functions are in this file, there's no need to download any additional libraries to compile this game.
 
