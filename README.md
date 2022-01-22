@@ -4,7 +4,7 @@ This code is designed to run on (very simple and cheap to build) custom hardware
 
 <a href="https://www.youtube.com/watch?v=lhz-gJY-Zcw"><img src="https://jm.iq.pl/tetris/tetrisvid.jpg" width="740"></a>
    
-Designed originally for the Attiny85 and optimised for the *#AttinyArcade* platform. The source code is less than 8KB and the sketch should run happily with less than 300 bytes of RAM. You can find out more about this platform from http://webboggles.com, buy kits to make it (or get instructions / schematics). This sketch includes some code from the #AttinyArcade games on that site, including interrupt code.
+Designed originally for the Attiny85 and optimised for the *#AttinyArcade* platform. The source code is less than 8KB and the sketch should run happily with less than 300 bytes of RAM. This sketch includes some code from the #AttinyArcade games.
 
 <img src="https://raw.githubusercontent.com/jaromaz/ATtiny-Tetris-Gold/master/Tetris%20Multi-Button.gif">
 
